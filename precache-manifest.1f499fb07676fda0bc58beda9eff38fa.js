@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da189f71f3dbe04f767efd1d7e5e6124",
+    "revision": "d1cd656d9c5ff5a206e7ef87ea2a20e4",
     "url": "/devFolio/index.html"
   },
   {
-    "revision": "b4b5a4305c5086ce6401",
+    "revision": "1332f052ca332535f003",
     "url": "/devFolio/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "8656da5fe43c6cd2d849",
+    "revision": "f9979e7a7fa67226fed3",
     "url": "/devFolio/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "fb3d78c1f50319b106bd",
-    "url": "/devFolio/static/css/main.72676d93.chunk.css"
+    "revision": "ac303ef8fba7c7f7063c",
+    "url": "/devFolio/static/css/main.733826ab.chunk.css"
   },
   {
-    "revision": "363cba3172571f593c67",
-    "url": "/devFolio/static/js/2.8154adbc.chunk.js"
+    "revision": "9ef9f4af7231a68e92c6",
+    "url": "/devFolio/static/js/2.50eaa626.chunk.js"
   },
   {
-    "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/devFolio/static/js/2.8154adbc.chunk.js.LICENSE.txt"
+    "revision": "408f8ade359af8695a328ed937291fdf",
+    "url": "/devFolio/static/js/2.50eaa626.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b4b5a4305c5086ce6401",
-    "url": "/devFolio/static/js/3.666e9c60.chunk.js"
+    "revision": "1332f052ca332535f003",
+    "url": "/devFolio/static/js/3.32653e9e.chunk.js"
   },
   {
-    "revision": "8656da5fe43c6cd2d849",
-    "url": "/devFolio/static/js/4.0eb2741e.chunk.js"
+    "revision": "f9979e7a7fa67226fed3",
+    "url": "/devFolio/static/js/4.3025e0df.chunk.js"
   },
   {
-    "revision": "fb3d78c1f50319b106bd",
-    "url": "/devFolio/static/js/main.d502c2a5.chunk.js"
+    "revision": "ac303ef8fba7c7f7063c",
+    "url": "/devFolio/static/js/main.dba5b72f.chunk.js"
   },
   {
-    "revision": "42be60490ebe47a5a2e8",
-    "url": "/devFolio/static/js/runtime-main.7bd4ed86.js"
+    "revision": "33163633535eb2d8fa14",
+    "url": "/devFolio/static/js/runtime-main.e3fd29c6.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
