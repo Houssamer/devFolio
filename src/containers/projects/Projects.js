@@ -3,6 +3,7 @@ import "./Project.scss";
 import Button from "../../components/button/Button";
 import {openSource, socialMediaLinks} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import { profile } from "../../assets/profile"
 import Loading from "../../containers/loading/Loading";
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
@@ -15,26 +16,28 @@ export default function Projects() {
   const {isDark} = useContext(StyleContext);
 
   useEffect(() => {
-    const getRepoData = () => {
-      fetch("/profile.json")
-        .then(result => {
-          if (result.ok) {
-            return result.json();
-          }
-          throw result;
-        })
-        .then(response => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
-        })
-        .catch(function (error) {
-          console.log(error);
-          setrepoFunction("Error");
-          console.log(
-            "Because of this Error, nothing is shown in place of Projects section. Projects section not configured"
-          );
-        });
-    };
-    getRepoData();
+    // const getRepoData = () => {
+    //   fetch("/profile.json")
+    //     .then(result => {
+    //       if (result.ok) {
+    //         return result.json();
+    //       }
+    //       throw result;
+    //     })
+    //     .then(response => {
+    //       setrepoFunction(response.data.user.pinnedItems.edges);
+    //     })
+    //     .catch(function (error) {
+    //       console.log(error);
+    //       setrepoFunction("Error");
+    //       console.log(
+    //         "Because of this Error, nothing is shown in place of Projects section. Projects section not configured"
+    //       );
+    //     });
+    // };
+    // getRepoData();
+
+    setrepoFunction(profile.data.user.pinnedItems.edges)
   }, []);
 
   function setrepoFunction(array) {
